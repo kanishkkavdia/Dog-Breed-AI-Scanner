@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(theme.jpg);
+    background-size: contain;
+  }
+.dog{
+    object-fit: cover;
+}
+.upload{
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+}
+.upload button{
+    margin-left: 5px;
+}
+.profile{
+    margin:40px;
+}
+.result {
+    background-color: rgb(255, 255, 255);
+    color: azure;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+    margin-top: auto;
+}
+@media screen and (min-width: 1000px) {
+    .profile{
+        display: flex;
+        justify-content: center;
+    }
+    .profile img{
+        width: 50%;
+        height: auto;
+    }
+    .head{
+        margin-right: 40px;
+    }
+  }
